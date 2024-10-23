@@ -2,19 +2,20 @@ h1 {
     text-align: center;
 }
 
-/* use # for ids. this takes priority over paragraph tags! */
+/* create text and background color scheme for #main id */
 #main {
     color:rgb(190, 196, 255);
     background-color:rgb(61, 12, 255);
 }
 
-/* use . for classes*/
+/* create a .Box class that adds a box around text*/
 .Box{
     text-align: center;
     border: 3px solid rgb(59, 0, 179);
     padding: 15px 20px 20px 15px;
 }
 
+/* create a .center class that centers text */
 .center{
     text-align: center;
 }
