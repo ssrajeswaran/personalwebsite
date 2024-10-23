@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title of webpage -->
+    <title>Shreya Rajeswaran - Personal Webpage </title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <!-- Header -->
+    <h1 id = "main">Welcome to my website!</h1>
+
+    <!-- headshot -->
+    <img src="https://media.licdn.com/dms/image/v2/C5603AQG4hsuSOI3Mkw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1645755143117?e=1734566400&v=beta&t=ej4mm24N22uD945tvCfJGaOXLsvAtt0AgBOo0d_DjLI" 
+    alt="Headshot" width=200>
+
+
+    <h3 class = "Box">About me:</h3>
+
+    <!-- About me -->
+     <p> Hello! My name is <b> Shreya Rajeswaran</b> and I am a fourth-year undergraduate student at Northeastern University majoring in biochemistry and minoring in data science, and I anticipate graduating in May 2025! I've done two co-ops in the biotech industry, the first at Visterra Inc. in Waltham where I was working in antibody development and optimization for autoimmune diseases, and the second at Tango Therapeutics in Fenway where I helped to research the in-vitro efficacy of a small-molecule therapeutic intended for BRCA-1/2 mut patients with breast and ovarian cancer. In fact, my work contributed to a publication that has just been submitted for review! After I graduate, I hope to continue working in biotech.</p>
+    <p>In these past few years at Northeastern, I've been involved in <a href="https://sites.google.com/view/sxneu"> Sigma Xi</a>, a research honors society, as well as Think Like a Scientist, a STEM outreach program where we work with children after school to introduce them to concepts of biology, chemistry, and physics by doing fun experiments! I'm also an undergraduate assistant for Biology Project Lab, a class intended to introduce students to lab techniques and the basics of designing an experimental project. Additionally, I am a peer mentor for freshman and sophomore students also majoring in biochemistry!
+    </p>
+    <p>I am originally from New Jersey, and in my free time, I like reading books, singing Indian classical vocal music, and playing the clarinet in Northeastern's concert band! One fun fact about me is that I've just started crocheting and have made a few small stuffed animals so far, including a dinosaur, rabbit, jellyfish, and panda!</p>
+
+    <button id = 'navigateButton'>To learn more about my crochet projects, click here! </button>
+
+    <!-- create button to navigate to Page 2 -->
+    <script>
+        const navigateButton = document.getElementById('navigateButton')
+        
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'crochet.html'
+        })
+
+    </script>
+
+    <!-- create contact section-->
+    <h3 class="Box"> Contact me! </h3>
+    <p class="center"> Email: ssrajeswaran@gmail.com OR rajeswaran.s@northeastern.edu</p>
+    <p class="center"> LinkedIn: <a href="https://www.linkedin.com/in/shreya-rajeswaran/"> Shreya Rajeswaran</a></p>
+    
+    
+
+
+</body>
+</html>
